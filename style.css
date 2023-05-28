@@ -1,0 +1,36 @@
+#display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background-color: yellow;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid crimson;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.card-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 5px solid crimson;
+}
+
+#error-bar {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: sticky;
+    top: 0px;
+    /* left: 250px; */
+    z-index: 999;
+}
